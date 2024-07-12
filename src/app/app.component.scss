@@ -1,0 +1,25 @@
+/* Entferne Standard-Margins und Paddings für alle Elemente */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container für die gesamte App */
+.app-container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden; /* Verhindert das Scrollen, falls es nicht nötig ist */
+}
+
+/* Sidebar Styling */
+app-sidebar {
+  height: 100%;
+  background-color: #f4f4f4; /* Hintergrundfarbe der Sidebar */
+}
+
+/* Hauptinhalt Styling */
+.main-content {
+  flex: 1;
+  overflow-y: auto;
+}
